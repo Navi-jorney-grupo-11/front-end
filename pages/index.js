@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import Header from '../components/Header';
+import What from '../components/Home/What';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero>
         <h1>HH um jeito tecnológico de fazer um <span>Happy Hour</span></h1>
       </Hero>
+      <What />
     </Wrapper>
 
   )
@@ -16,8 +18,7 @@ export default function Home() {
 
 const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.primary};
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
   user-select: none; /* supported by Chrome and Opera */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -30,7 +31,7 @@ const Hero = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 80%;
+  height: 85vh;
 
   h1 {
     font-weight: 300;
@@ -41,4 +42,5 @@ const Hero = styled.div`
   span {
     font-weight: 500;
   }
+  
 `;
