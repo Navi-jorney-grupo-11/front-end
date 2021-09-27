@@ -33,7 +33,7 @@ const Container = styled.div`
     align-items: center;
     flex-direction: row;
     width: 100%;
-    padding: 2rem 0;
+    padding: 8rem 0;
     .textContainer {
         width: 30%;
         h1 {
