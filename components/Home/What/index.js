@@ -58,7 +58,7 @@ const Container = styled.div`
         'md',
         css`
            flex-direction: column;
-            padding: 2rem 1rem;
+            padding: 4rem 1rem;
             .imgContainer {
                 width: 100%;
                 margin-top: 2rem;
