@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import Header from '../components/Header';
 import What from '../components/Home/What';
+import Tech from '../components/Home/Tech';
 import Footer from '../components/Footer';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <h1>HH um jeito tecnológico de fazer um <span>Happy Hour</span></h1>
       </Hero>
       <What />
+      <Tech />
       <Footer />
     </Wrapper>
 
