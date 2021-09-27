@@ -34,6 +34,7 @@ const Hero = styled.div`
   justify-content: center;
   text-align: center;
   height: 85vh;
+  padding: 0 1rem;
 
   h1 {
     font-weight: 300;
@@ -44,5 +45,4 @@ const Hero = styled.div`
   span {
     font-weight: 500;
   }
-  
 `;
