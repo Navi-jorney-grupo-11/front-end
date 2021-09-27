@@ -33,7 +33,7 @@ const Hero = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 85vh;
+  height: 75vh;
   padding: 0 1rem;
 
   h1 {
